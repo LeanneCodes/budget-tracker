@@ -16,7 +16,7 @@ const ExpenseItem = (props) => {
 		<li className='list-group-item d-flex justify-content-between align-items-center'>
 			{props.name}
 			<div>
-				<span className='btn btn-sm btn-primary rounded-5 text-white mx-3'>£{props.cost}</span>
+				<span className={props.cost > 450 ? 'btn btn-sm btn-danger rounded-5 text-white mx-3' : 'btn btn-sm btn-primary rounded-5 text-white mx-3'}>£{props.cost}</span>
 				<TiDelete size='1.5em' onClick={handleDeleteExpense} />
 			</div>
 		</li>

@@ -9,13 +9,24 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #F3EBF3 !important;
 }
 
 #root {
-  width: 40%;
+  width: 55%;
+  background-color: white !important;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid white;
+  box-shadow: 5px 5px #BCB4CC;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn-primary {
+  background-color: #171F47 !important;
+  border: 1px solid #171F47 !important;
 }
